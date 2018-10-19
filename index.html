@@ -2,40 +2,53 @@
 <html>
 <head>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
 	<style>
+	#grad{
+
+	}
 	body{
-	   background-color: #212121; 
+	   background-color: white;
+/*		background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);*/
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	}
 
-	h1{
-	   color: white;
+	p.name{
+	   color: #4CB3F9;
 	   font-size: 110px;
+	background: -webkit-linear-gradient(#4481eb, #04befe);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
 	   text-align: center;
-	   font-family: 'Varela Round', cursive;
+	   font-family: 'mali';
 	   margin: 1px;
 	   padding-bottom: 1px;
-	   animation-duration: .7s;
+	   animation-duration: .9s;
 	   animation-name: fadeandscale
 	}
-	h2{
-	   color: white;
+	p.hi{
+	   color: #4BBBFB;
 	   font-size: 50px;
 	   text-align: center;
-	   font-family: 'Varela Round', cursive;
+	   font-family: 'mali', cursive;
 	}
 
 	p{
-	   color: white;
+	   color: #4DAAF6;
 	   font-size: 20px;
 	   text-align: center;
-	   font-family: 'Varela Round', sans-serif;
+	   font-family: 'mali', sans-serif;
 
 	}
 
 	@keyframes fadeandscale{
 	   from{
 	       opacity: 0;
-	       transform: scale(.9,.9);
+	       transform: scale(.8,.8);
 	   }
 	   to{
 	       opacity: 1;
@@ -44,14 +57,6 @@
 
 	}
 
-	p.wip{
-
-	   color: white;
-	   font-size: 15px;
-	   text-align: center;
-	   font-family: 'Varela Round', sans-serif;
-
-	}
 	.fa {
 	 padding: 20px;
 	 font-size: 30px;
@@ -60,32 +65,70 @@
 	 text-decoration: none;
 	 margin: 5px 2px;
 	 border-radius: 50%;
+	color:#4EA2F4;
+/*background: -webkit-linear-gradient(#4481eb, #04befe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 	}
 
 	.fa:hover {
-	   opacity: 0.7;
+		color: hotpink;
+	   /*opacity: 0.7;*/
 	}
 	.fa{
-	   color:white;
+	   color:#4EA0F3;
 	   text-align: center;
 	   margin-left: auto;
 	   margin-right: auto;
 	}
 
+
+
+	    .footer {
+	   	color: #5284EA;
+	   	color: white;
+		background-color: white;
+		background: -webkit-linear-gradient(#4481eb, #04befe);
+	   	font-size: 15px;
+	   	text-align: center;
+	    position: fixed;
+	    left: 0;
+	    bottom:0;
+	    width: 100%;
+	    text-align: center;
+	   font-family: 'mali', sans-serif;
+
+    }
+
+a:link {
+    color: #4DAAF6;
+}
+
+a:hover {
+    color: hotpink;
+}
 	</style>
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-	<title>Welcome To My Website</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<title>hi, i'm ..</title>
 </head>
-<body>
-	<h2>Hi, I'm</h2>
-	<h1>Yusrilia</h1>
-	<p>I am a student who likes to design and code.<br>
-	<br>
+<body >
+	<br><br><br>
+	<p class="hi">hi, i'm</p>
+	<p class="name">yusrilia</p>
+	<br><br><p>I code, design, drink coffee and sleep.<br>
+	<br><br><br><br><br><br><br>
 	Find me elsewhere:</p>
 	<center>
-		<a class="fa fa-twitter" href="https://twitter.com/ysrla_" target="_blank"></a> 
-		<a class="fa fa-behance" href="https://www.behance.net/realyusrilia" target="_blank"></a> 
-		<a class="fa fa-github" href="https://github.com/ysrhy" target="_blank"></a>
+		<a class="fa fa-instagram" title="I post my drawings" href="https://instagram.com/itsyusrilia" target="_blank"></a> 
+		<a class="fa fa-twitter"  title="I tweet randomness"href="https://twitter.com/itsyusrilia" target="_blank"></a> 
+		<a class="fa fa-dribbble"  title="I post my designs"href="https://dribbble.com/yusrilia" target="_blank"></a>
+		<a class="fa fa-github"  title="I don't know why I have it"href="https://github.com/yusrilia" target="_blank"></a>
+		<a class="fa fa-behance" title="I rarely do anything there, don't look x)" href="https://www.behance.net/yusrilia" target="_blank"></a> 
 	</center>
+	<p>or,<br><br>
+	<a href="mailto:yusriliadesign@gmail.com?Subject=Hello" target="_top">email me</a></p>
+
+  <div class = "footer"><br>2018 &copy <i>Work in progress</i>. Handmade with ❤ by lia <br><br></div>
+
 </body>
 </html>
